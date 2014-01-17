@@ -27,3 +27,6 @@ greet()
 alice.greet()
 bob.greet()
 carl.greet()
+
+var detached = alice.greet
+detached()

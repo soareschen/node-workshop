@@ -1,4 +1,5 @@
 
+var util = require('util')
 var async = require('async')
 
 var Person = function(name) {
@@ -14,20 +15,20 @@ Person.prototype.speak = function(sentence) {
 }
 
 var French = function(name) {
-  Person.call(this, name)
+  French.super_.call(this, name)
 }
 
-French.prototype = Object.create(Person.prototype)
+util.inherits(French, Person)
 
 French.prototype.greet = function() {
   console.log('Bonjour, my name is', this.name)
 }
 
 var SlowPoke = function(name) {
-  Person.call(this, name)
+  SlowPoke.super_.call(this, name)
 }
 
-SlowPoke.prototype = Object.create(Person.prototype)
+util.inherits(SlowPoke, Person)
 
 SlowPoke.prototype.speak = function(sentence) {
   var words = sentence.split(' ')

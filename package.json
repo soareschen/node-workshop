@@ -1,0 +1,15 @@
+{
+  "name": "learnemy-node-workshop",
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "version": "0.0.1",
+  "description": "Material for my Learnemy Node.js workshop",
+  "homepage": "https://github.com/soareschen/node-workshop",
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "private": true
+}
