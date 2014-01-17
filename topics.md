@@ -31,6 +31,8 @@
 
 ## setImmediate
 
+## Zalgo
+
 ## Async Lib
 
 ### Series
@@ -58,6 +60,8 @@
 ## File System
 
 ## Event
+
+## HTTP Request
 
 ## HTTP Handler
 
