@@ -1,4 +1,3 @@
-
 var countDown = function(ticks, interval, tickCallback, callback) {
   if(ticks == 0) return callback()
 

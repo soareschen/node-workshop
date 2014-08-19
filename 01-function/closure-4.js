@@ -1,4 +1,3 @@
-
 var names = ['Alice', 'Bob', 'Carl']
 
 var createGreeter = function(greet) {

@@ -1,4 +1,3 @@
-
 var mapAsync = function(array, mapperAsync, callback) {
   if(array.length == 0) return callback([])
 

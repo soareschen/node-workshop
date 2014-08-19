@@ -1,4 +1,3 @@
-
 var createSpeaker = function(name) {
   var speaker = function() {
     console.log('My name is', name)

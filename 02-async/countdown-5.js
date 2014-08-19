@@ -1,4 +1,3 @@
-
 var async = require('async')
 
 var countDown = function(ticks, interval, tickCallback, callback) {

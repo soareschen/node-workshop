@@ -1,4 +1,3 @@
-
 var createSpeaker = function(name) {
   var calledTimes = 0
 

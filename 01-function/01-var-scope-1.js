@@ -1,4 +1,3 @@
-
 var name = 'John'
 
 var inside = function() {

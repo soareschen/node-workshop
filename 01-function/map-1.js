@@ -1,4 +1,3 @@
-
 var map = function(array, mapper) {
   if(array.length == 0) return []
 

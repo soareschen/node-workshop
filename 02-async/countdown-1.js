@@ -1,4 +1,3 @@
-
 var countDown = function(seconds, callback) {
   if(seconds == 0) return callback()
 
